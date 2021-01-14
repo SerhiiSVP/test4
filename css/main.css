@@ -91,9 +91,13 @@ body{
 	color: #717784;
 	margin-right: 58px;
 }
-.nav{
-	
-
+.top_btn{
+	transition: all 0.5s ease;
+}
+.top_btn:hover{
+	background: #fff;
+	color: #000;
+	transition: all 0.5s ease;
 }
 
 /*header*/
@@ -414,7 +418,7 @@ h2{
 		width: 960px;
 	}	
 	.top_btn{
-		padding: 10px 30px;
+		padding: 15px 30px;
 	}
 	.nav a{
 		margin-right: 30px;
@@ -427,7 +431,7 @@ h2{
 		width: 720px;
 	}
 	.top_btn{
-		padding: 5px 15px;
+		padding: 15px 30px;
 	}
 	.nav a{
 		margin-right: 15px;
@@ -472,9 +476,7 @@ h2{
 	.nav {
 		display: none;
 	}
-	.top_btn{
-		padding: 20px 40px;
-	}
+	
 	h1{
 		margin-top: 40px;
 		font-size: 45px;
@@ -559,6 +561,9 @@ h2{
 @media screen and (max-width: 576px) {
 	.container {
 		width: 90%;
+	}
+	.top_btn{
+		width: 100%;
 	}
 	.button{
 		display: none;
